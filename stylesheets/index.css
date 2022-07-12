@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+img.oneHundred {
+    width: 100%;
+}
+
 footer {
     position: absolute;
     clear: both;
