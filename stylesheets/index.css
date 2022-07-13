@@ -49,14 +49,99 @@ footer > p {
     background-color: black;
 }
 
-h1 {
+h1.home {
     margin-top: 80px;
     text-align: center;
     padding: 300px;
     font-size: 100px;
 }
 
+h1.menu {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 100px;
+}
+
+ul.menu-links {
+    font-size: 50px;
+    text-align: center;
+}
+
+span {
+    padding-left: 30px;
+}
+
+section#appetizers > div > ul > li, section#entrees > ul > li, section#soupsAndSalads > ul > li, section#sides > ul > li, section#beverages > ul > li, section#desserts > ul > li {
+    padding: 10px;
+}
+
+section#appetizers > div > ul, section#entrees > ul, section#soupsAndSalads > ul, section#sides > ul, section#beverages > ul, section#desserts > ul {
+    list-style-type: none;
+}
+
+section#appetizers {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 500px;
+    float: left;
+    margin-bottom: 110px;
+}
+
+section#entrees {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-right: 500px;
+    float: right;
+    clear: right;
+}
+
+section#soupsAndSalads {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 500px;
+    float: left;
+    clear: left;
+    margin-bottom: 160px;
+}
+
+section#sides {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-right: 350px;
+    float: right;
+    clear: right;
+
+}
+
+section#beverages {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 500px;
+    float: left;
+    clear: left;
+}
+
+section#desserts {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-right: 410px;
+    float: right;
+    clear: right;
+}
+
+section#concerns {
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+}
+
 section#home {
+    background-image: url("https://i.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#menu {
     background-image: url("https://i.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
     background-size: 100%;
     background-repeat: no-repeat;
