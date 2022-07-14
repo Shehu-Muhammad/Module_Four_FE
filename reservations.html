@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+    <h2 hidden>Soul Food Restaurant Landing</h2>
+    <header>   
+        <nav>
+            <h2 hidden>Navigation Section</h2>
+            <!-- This is the main navigation links -->
+            <ul>
+                <li class="navLinks">
+                    <a href="index.html"><strong>Brand</strong></a>
+                </li>
+                <li class="navLinks">
+                    <a href="menu.html">MENU</a>
+                </li>
+                <li class="navLinks">
+                    <a href="reservations.html">RESERVATIONS</a>
+                </li>
+                <li class="navLinks">
+                    <a href="events-catering.html">EVENTS&nbsp;&&nbsp;CATERING</a>
+                </li>
+                <li class="navLinks">
+                    <a href="team.html">TEAM</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1 class="reservations-h1">Reservations</h1>
+    </section>
+    <section>
+        <h2 hidden>Book A Reservation</h2>
+        <form id="reservations-form">
+            <label for="name">Reservation Name</label>
+            <input type="text" name="name" placeholder="Enter Name">
+            <label for="people">Enter Party Size</label>
+            <input type="number" name="people" placeholder="Must be between 1 and 20" min="1" max="20" required>
+            <label for="date">Choose Date</label>
+            <input type="date" name="date">
+            <label for="time">Select Time</label>
+            <input type="time" name="time" min="09:00" max="23:00" required>
+            <input type="submit" value="Book Reservation">
+        </form>
+    </section>
+    <section class="notice">
+        <h2 class="notice">Important Notice</h2>
+        <p class="notice">
+            Validated parking is available to all guests dining with us on non-event days.<br> 
+            Patio seating is available on a first come first serve basis.<br>
+            Large party bookings are available for private and semi-private dining. 
+        </p>
+    </section>
+   
+    <footer class="notice">
+        <p>&copy;&nbsp;Shehu&nbsp;Muhammad</p>
+    </footer>   
+</body>
+</html>
