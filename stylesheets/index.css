@@ -480,3 +480,94 @@ footer.team {
     position: absolute;
     bottom: -1450px;
 }
+
+h1.events {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+img.bbq {
+    margin-top: 20px;
+    margin-left: 450px;
+    border: 5px dashed #FFC300;
+    border-radius: 60px;
+}
+
+h2.interview {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+iframe {
+    float: left;
+    margin-left: 250px;
+    margin-top: 30px;
+    border: 5px ridge green;
+}
+
+iframe.cooking-tips {
+    margin-left: 660px;
+}
+
+section.cooking-tips {
+    clear: both;
+}
+
+h2.cooking-tips {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+section.events-list {
+    clear: both;
+}
+
+h2.events-list {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+table {
+    border: 5px solid green;
+    margin-top: 30px;
+    margin-left: 590px;
+    padding: 30px;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+}
+
+th, td, tr {
+    padding: 10px;
+    border: 5px solid green;
+    text-align: center;
+}
+
+
+td:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;   
+}
+
+td:nth-child(2) {
+    font-size: 20px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+footer.events-list {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    bottom: -1980px;
+    padding: 30px;
+}
