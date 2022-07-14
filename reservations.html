@@ -39,13 +39,13 @@
         <h2 hidden>Book A Reservation</h2>
         <form id="reservations-form">
             <label for="name">Reservation Name</label>
-            <input type="text" name="name" placeholder="Enter Name">
+            <input type="text" name="name" id="name" placeholder="Enter Name">
             <label for="people">Enter Party Size</label>
-            <input type="number" name="people" placeholder="Must be between 1 and 20" min="1" max="20" required>
+            <input type="number" name="people" id="people" placeholder="Must be between 1 and 20" min="1" max="20" required>
             <label for="date">Choose Date</label>
-            <input type="date" name="date">
+            <input type="date" name="date" id="date">
             <label for="time">Select Time</label>
-            <input type="time" name="time" min="09:00" max="23:00" required>
+            <input type="time" name="time" id="time" min="09:00" max="23:00" required>
             <input type="submit" value="Book Reservation">
         </form>
     </section>
