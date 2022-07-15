@@ -393,6 +393,11 @@ h1.team {
     font-size: 50px;
 }
 
+body > section.job-title-descriptions > h2 {
+    margin-left: 500px;
+    top: 1400px;
+}
+
 section.job-title-descriptions {
     clear: both;
     margin-left: 300px;
@@ -463,7 +468,7 @@ section.job-title-descriptions > div.hostess > ul {
 
 section.job-title-descriptions > div.dishwasher > ul {
     position: absolute;
-    top: 2100px;
+    top: 2180px;
     left: 1250px;
     font-size: 25px;
 }
@@ -531,7 +536,7 @@ h2.events-list {
     padding-top: 30px;
 }
 
-table {
+table.events {
     border: 5px solid green;
     margin-top: 30px;
     margin-left: 590px;
@@ -541,27 +546,25 @@ table {
     color: black;
 }
 
-th, td, tr {
+table.events > th, table.events > td, table.events > tr {
     padding: 10px;
     border: 5px solid green;
     text-align: center;
 }
 
-
-td:nth-child(1) {
+table.events > td:nth-child(1) {
     font-size: 20px;
     font-weight: 600;   
 }
 
-td:nth-child(2) {
+table.events > td:nth-child(2) {
     font-size: 20px;
 }
 
-th {
+table.events > th {
     font-weight: bold;
     font-size: 30px;
 }
-
 
 footer.events-list {
     position: absolute;
