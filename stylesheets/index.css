@@ -33,13 +33,39 @@ img.oneHundred {
     width: 100%;
 }
 
-footer {
+footer.home {
     position: absolute;
     clear: both;
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -1720px;
+    bottom: -2180px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+footer.notice {
+    position: absolute;
+    clear: both;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    bottom: -1700px;
+    padding-bottom: 30px;
+}
+
+footer.menu {
+    position: absolute;
+    clear: both;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    bottom: -1700px;
+    padding-bottom: 30px;
+}
+
+footer.notice > p {
+    padding-top: 30px;
 }
 
 footer > p {
@@ -61,6 +87,8 @@ h1.menu {
     text-align: center;
     font-size: 100px;
 }
+
+
 
 ul.menu-links {
     font-size: 50px;
@@ -136,13 +164,13 @@ section#concerns {
 }
 
 section#home {
-    background-image: url("https://i.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
+    background-image: url("../images/home.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 section#menu {
-    background-image: url("https://i.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
+    background-image: url("../images/burgerAndFries.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -231,7 +259,7 @@ h1.reservations-h1 {
     font-size: 50px;
     text-align: center;
     padding: 200px;
-    background-image: url("https://i.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
+    background-image: url("../images/events.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -484,6 +512,10 @@ section.job-title-descriptions > div > ul > li {
 footer.team {
     position: absolute;
     bottom: -1450px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
 }
 
 h1.events {
@@ -536,6 +568,31 @@ h2.events-list {
     padding-top: 30px;
 }
 
+dl {
+    border: 5px solid green;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    width: 1500px;
+}
+dt, dd {
+    padding: 20px;
+    font-size: 30px;
+}
+
+dt {
+    float: left;
+    font-weight: bold;
+    border: 5px solid green;
+}
+
+dd {
+    border: 5px solid green;
+    text-align: center;
+}
+
 table.events {
     border: 5px solid green;
     margin-top: 30px;
@@ -546,22 +603,22 @@ table.events {
     color: black;
 }
 
-table.events > th, table.events > td, table.events > tr {
+tr.events > td, tr.events > th {
     padding: 10px;
     border: 5px solid green;
     text-align: center;
 }
 
-table.events > td:nth-child(1) {
+tr.events :nth-child(1) {
     font-size: 20px;
     font-weight: 600;   
 }
 
-table.events > td:nth-child(2) {
+tr.events :nth-child(2) {
     font-size: 20px;
 }
 
-table.events > th {
+tr.events > th {
     font-weight: bold;
     font-size: 30px;
 }
@@ -571,6 +628,6 @@ footer.events-list {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -1980px;
+    bottom: -2500px;
     padding: 30px;
 }
