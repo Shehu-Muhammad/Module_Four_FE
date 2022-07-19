@@ -39,19 +39,49 @@ footer.home {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -2210px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    bottom: -2280px;
 }
 
-footer.notice {
+footer.home > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer.events-list {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    bottom: -2580px;
+}
+
+footer.events-list > p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer.importantNotice {
     position: absolute;
     clear: both;
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -1700px;
+    bottom: -700px;
     padding-bottom: 30px;
+}
+
+footer.importantNotice {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
 }
 
 footer.menu {
@@ -60,19 +90,33 @@ footer.menu {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -1700px;
+    bottom: -1800px;
     padding-bottom: 30px;
 }
 
-footer.notice > p {
-    padding-top: 30px;
-}
-
-footer > p {
-    color: white;
-    padding: 10px;
+footer.menu > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 20px;
     background-color: black;
+    color: white;
+}
+
+footer.team {
+    position: absolute;
+    bottom: -1550px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+footer.team > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
 }
 
 h1.home {
@@ -320,11 +364,6 @@ section.notice {
     color: black;
 }
 
-footer.notice {
-    position: absolute;
-    bottom: -650px;
-}
-
 div.pastry > figure > img {
     width: 400px;
     float: left;
@@ -509,15 +548,6 @@ section.job-title-descriptions > div > ul > li {
     padding: 5px;
 }
 
-footer.team {
-    position: absolute;
-    bottom: -1450px;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    padding: 30px;
-}
-
 h1.events {
     margin-top: 100px;
     text-align: center;
@@ -623,11 +653,3 @@ tr.events > th {
     font-size: 30px;
 }
 
-footer.events-list {
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    bottom: -2500px;
-    padding: 30px;
-}
