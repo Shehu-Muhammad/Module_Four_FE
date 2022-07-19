@@ -90,7 +90,7 @@ footer.menu {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -1800px;
+    bottom: -2150px;
     padding-bottom: 30px;
 }
 
@@ -130,13 +130,16 @@ h1.menu {
     margin-top: 80px;
     text-align: center;
     font-size: 100px;
+    color: black;
 }
-
-
 
 ul.menu-links {
     font-size: 50px;
     text-align: center;
+}
+
+ul.menu-links li a{
+    color: black;
 }
 
 span {
@@ -144,12 +147,17 @@ span {
 }
 
 section#appetizers > div > ul > li, section#entrees > ul > li, section#soupsAndSalads > ul > li, section#sides > ul > li, section#beverages > ul > li, section#desserts > ul > li {
-    padding: 10px;
+    padding: 15px;
 }
 
 section#appetizers > div > ul, section#entrees > ul, section#soupsAndSalads > ul, section#sides > ul, section#beverages > ul, section#desserts > ul {
     list-style-type: none;
 }
+
+section#appetizers > h2, section#entrees > h2, section#soupsAndSalads > h2, section#sides > h2, section#beverages > h2, section#desserts > h2 {
+    margin-bottom: 30px;
+}   
+
 
 section#appetizers {
     margin-top: 50px;
