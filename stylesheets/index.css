@@ -424,7 +424,7 @@ figcaption.assistant {
 figcaption.pastry {
     position: absolute;
     top: 510px;
-    left: 1350px;
+    left: 1300px;
 }
 
 figcaption.food {
@@ -442,7 +442,7 @@ figcaption.cook {
 figcaption.server {
     position: absolute;
     top: 880px;
-    left: 1350px;
+    left: 1320px;
 }
 
 figcaption.host {
@@ -460,7 +460,7 @@ figcaption.hostess {
 figcaption.dishwasher {
     position: absolute;
     top: 1250px;
-    left: 1350px;
+    left: 1320px;
 }
 
 h1.team {
