@@ -16,6 +16,39 @@ nav {
     z-index: 1;
 }
 
+nav a {
+    font-family: 'Cormorant SC', serif;
+    /* font-family: 'Abril Fatface', cursive; */
+    letter-spacing: 5px;
+    font-size: 20px;
+    /* font-family: 'Cormorant SC', serif; */
+    /* font-family: 'Kaushan Script', cursive; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Lobster Two', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+nav ul a:hover {
+    color: khaki;
+    border-bottom: 3px solid khaki;
+    border-top: 3px solid khaki;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    padding-left: 5px;
+}
+
+.active {
+    color: khaki;
+    border-bottom: 3px solid khaki;
+    border-top: 3px solid khaki;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    padding-left: 5px;
+}
+
 .navLinks {
     display: inline;
     list-style-type: none;
@@ -29,8 +62,68 @@ a {
     text-decoration: none;
 }
 
-img.oneHundred {
+div > table#homepage {
     width: 100%;
+    margin: 0 auto;
+}
+#homepage > tbody > tr:nth-child(1) > td:nth-child(1) > a {
+    padding-top: 45%;
+    padding-bottom: 45%;
+    padding-left: 37%;
+    padding-right: 37%;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;
+    color: green;
+}
+#homepage > tbody > tr:nth-child(1) > td:nth-child(2) > a {
+    padding-top: 45%;
+    padding-bottom: 40%;
+    padding-left: 25%;
+    padding-right: 19%;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;  
+}
+#homepage > tbody > tr:nth-child(2) > td:nth-child(1) > a {
+    padding-top: 45%;
+    padding-bottom: 45%;
+    padding-left: 35%;
+    padding-right: 31%;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;  
+}
+#homepage > tbody > tr:nth-child(2) > td:nth-child(2) > a {
+    padding-top: 45%;
+    padding-bottom: 45%;
+    padding-left: 48%;
+    padding-right: 31%;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;
+    color: black;  
+}
+
+#homepage > tbody > tr:nth-child(1) > td:nth-child(1) > a > img {
+    width: 100%;
+}
+#homepage > tbody > tr:nth-child(1) > td:nth-child(2) > a > img {
+    width: 100%;
+}
+#homepage > tbody > tr:nth-child(2) > td:nth-child(1) > a > img {
+    width: 100%;
+}
+#homepage > tbody > tr:nth-child(2) > td:nth-child(2) >  a > img {
+    width: 100%;
+}
+
+table#homepage {
+    width: 100%;
+    /* border: 5px solid red; */
+}
+
+td {
+    width: 25%;
+    height: 900px;
+    text-align: center;
+    /* border: 5px solid green; */
 }
 
 footer.home {
@@ -39,7 +132,7 @@ footer.home {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -2280px;
+    /* bottom: -2080px; */
 }
 
 footer.home > p {
@@ -55,7 +148,9 @@ footer.events-list {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -2580px;
+    /* bottom: -2580px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer.events-list > p {
@@ -72,7 +167,7 @@ footer.importantNotice {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -700px;
+    /* bottom: -700px; */
     padding-bottom: 30px;
 }
 
@@ -90,7 +185,7 @@ footer.menu {
     background-color: black;
     width: 100%;
     text-align: center;
-    bottom: -2150px;
+    /* bottom: -2150px; */
     padding-bottom: 30px;
 }
 
@@ -104,16 +199,16 @@ footer.menu > p {
 
 footer.team {
     position: absolute;
-    bottom: -1550px;
+    clear: both;
+    bottom: -1430px;
     background-color: black;
     width: 100%;
     text-align: center;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 footer.team > p {
-    padding-top: 20px;
-    padding-bottom: 10px;
     font-size: 20px;
     background-color: black;
     color: white;
@@ -124,6 +219,8 @@ h1.home {
     text-align: center;
     padding: 300px;
     font-size: 100px;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 h1.menu {
@@ -131,6 +228,8 @@ h1.menu {
     text-align: center;
     font-size: 100px;
     color: black;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 ul.menu-links {
@@ -157,7 +256,6 @@ section#appetizers > div > ul, section#entrees > ul, section#soupsAndSalads > ul
 section#appetizers > h2, section#entrees > h2, section#soupsAndSalads > h2, section#sides > h2, section#beverages > h2, section#desserts > h2 {
     margin-bottom: 30px;
 }   
-
 
 section#appetizers {
     margin-top: 50px;
@@ -231,36 +329,32 @@ table {
     background-color: black;
 }
 
-td > a.menu-link {
-    z-index: 0;
-    position: absolute;
-    top: 1150px;
-    left: 350px;
+td.menu-link {
     font-size: 80px;
+    background-image: url("../images/burgerAndFries.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-td > a.reservations-link {
-    z-index: 0;
-    position: absolute;
-    top: 1150px;
-    right: 200px;
+td.reservations-link {
     font-size: 80px;
+    background-image: url("../images/reservations.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-td > a.events-link {
-    z-index: 0;
-    position: absolute;
-    top: 1850px;
-    left: 330px;
+td.events-link{
     font-size: 80px;
+    background-image: url("../images/fireworks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-td > a.team-link {
-    z-index: 0;
-    position: absolute;
-    top: 1850px;
-    right: 350px;
+td.team-link {
     font-size: 80px;
+    background-image: url("../images/chef.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 div.form-container {
@@ -314,6 +408,8 @@ h1.reservations-h1 {
     background-image: url("../images/events.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 form#reservations-form {
@@ -560,6 +656,8 @@ h1.events {
     margin-top: 100px;
     text-align: center;
     font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 img.bbq {
@@ -573,6 +671,8 @@ h2.interview {
     font-size: 40px;
     text-align: center;
     margin-top: 30px;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 iframe {
@@ -594,6 +694,8 @@ h2.cooking-tips {
     font-size: 40px;
     text-align: center;
     padding-top: 30px;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 section.events-list {
@@ -604,6 +706,8 @@ h2.events-list {
     font-size: 40px;
     text-align: center;
     padding-top: 30px;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 dl {
@@ -660,4 +764,5 @@ tr.events > th {
     font-weight: bold;
     font-size: 30px;
 }
+
 

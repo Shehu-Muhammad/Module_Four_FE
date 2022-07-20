@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+SC:wght@600&family=Kaushan+Script&family=Lato:ital,wght@1,300&family=Lobster+Two&family=Roboto:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     <h2 hidden>Soul Food Restaurant Landing</h2>
@@ -15,7 +18,7 @@
             <!-- This is the main navigation links -->
             <ul>
                 <li class="navLinks">
-                    <a href="index.html"><strong>Brand</strong></a>
+                    <a class="active" href="index.html"><strong>Brand</strong></a>
                 </li>
                 <li class="navLinks">
                     <a href="menu.html">MENU</a>
@@ -40,40 +43,28 @@
     <section>
         <h2 hidden>Navigation Images</h2>
         <div>
-            <table>
+            <table id="homepage">
                 <tr>
-                    <td>
-                        <a class="menu-link" href="menu.html">
+                    <td class="menu-link">
+                        <a href="menu.html">
                             MENU 
                         </a>
-                        <a href="menu.html">
-                            <img width="1000" height="900" src="../images/burgerAndFries.jpg" alt="a picture of a burger and french fries" >
-                        </a>
                     </td>
-                    <td>
-                        <a class="reservations-link" href="reservations.html">
-                            RESERVATIONS
-                        </a>
+                    <td class="reservations-link">
                         <a href="reservations.html">
-                            <img width="1000" height="900" src="../images/reservations.jpg" alt="a picture of a waiter bringing french fries and wraps to a table" >
+                            RESERVATIONS
                         </a>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <a class="events-link" href="events.html">
+                    <td class="events-link">
+                        <a href="events.html">
                             EVENTS
                         </a>
-                        <a href="events.html">
-                            <img width="1000" height="900" src="../images/fireworks.jpg" alt=" a picture of fireworks" >
-                        </a>
                     </td>
-                    <td>
-                        <a class="team-link" href="team.html">
-                            TEAM
-                        </a>
+                    <td class="team-link">
                         <a href="team.html">
-                            <img width="1000" height="900" src="../images/chef.jpg" alt="a picture of chef" >
+                            TEAM
                         </a>
                     </td>
                 </tr>
@@ -94,7 +85,7 @@
         </div>
     </section>
     <footer class="home">
-        <p>&copy;&nbsp;Shehu&nbsp;Muhammad</p>
+        <p>&copy;Copyright.&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
     </footer>   
 </body>
 </html>
