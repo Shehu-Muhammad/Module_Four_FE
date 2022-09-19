@@ -15,6 +15,10 @@
 	- Comments explaining each section in a webpage
 - Published to GitHub
 	- Published to GitHub
+## Screenshots
+![Home page](https://github.com/Shehu-Muhammad/Module_Four_FE/blob/62a9cb3bfac305aea302c2e85b25739d88c062b8/homepage.png)
+![Reservations page](https://github.com/Shehu-Muhammad/Module_Four_FE/blob/62a9cb3bfac305aea302c2e85b25739d88c062b8/reservations.png)
+![Menu page](https://github.com/Shehu-Muhammad/Module_Four_FE/blob/62a9cb3bfac305aea302c2e85b25739d88c062b8/menu.png)
 ## Built with
 * [HTML5](https://webplatform.github.io/docs/html/html5/) - The language used to create the content
 * [CSS3](https://devdocs.io/css/) - The language used to style the content
