@@ -15,3 +15,10 @@
 	- Comments explaining each section in a webpage
 - Published to GitHub
 	- Published to GitHub
+## Built with
+* [HTML5](https://webplatform.github.io/docs/html/html5/) - The language used to create the content
+* [CSS3](https://devdocs.io/css/) - The language used to style the content
+## Authors
+* **Shehu Muhammad** - *Entire Project* - [Shehu Muhammad](https://github.com/Shehu-Muhammad/)
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
